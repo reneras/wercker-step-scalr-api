@@ -8,13 +8,13 @@ properties:
   endpoint:
     type: string
     required: true
-  version:
+  api-version:
     type: string
     required: true
   key-id:
     type: string
     required: true
-  api-key:
+  api-access-key:
     type: string
     required: true
   action:
