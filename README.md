@@ -11,7 +11,7 @@ Link to API docs: https://scalr-wiki.atlassian.net/wiki/display/docs/API
 * `key-id` (required) The API Key ID
 * `api-access-key` (required) The API Access Key
 * `action` (required) The API action to be performed
-* `params` (optional) All params. For example: FarmID=1&ScriptID=2&ConfigVariables[a]=b
+* `params` (optional) All params. Must start with `&`. For example: &FarmID=1&ScriptID=2&ConfigVariables[a]=b
 
 # Example
 
@@ -26,7 +26,7 @@ deploy:
         key-id: $SCALR_API_KEY_ID
         api-access-key: $SCALR_API_ACCESS_KEY
         action: ScriptExecute
-        params: FarmID=1&ScriptID=2&ConfigVariables[a]=b
+        params: &FarmID=1&ScriptID=2&ConfigVariables[a]=b
 ```
 
 # License
