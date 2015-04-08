@@ -1,0 +1,26 @@
+name: scalr-api
+version: 1.0
+description: Send queries to your Scalr API.
+keywords:
+  - scalr
+  - api
+properties:
+  endpoint:
+    type: string
+    required: true
+  version:
+    type: string
+    required: true
+  key-id:
+    type: string
+    required: true
+  api-key:
+    type: string
+    required: true
+  action:
+    type: string
+    required: true
+  params:
+    type: string
+    required: false
+  
