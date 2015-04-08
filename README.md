@@ -1,4 +1,4 @@
-# scalr-api
+# scalr-API
 
 Scalr is a web-based control panel for cloud infrastructure that serves as an interface between end users and the multiple cloud platforms that they use. This Wercker step can be used to call your Scalr instance and manage your infrastructure. In other words, deploy that successful build already! Or whatever call you wish to perform. Works with hosted and open-source instances.
 
@@ -20,7 +20,7 @@ Add `SCALR_API_KEY_ID` & `SCALR_API_ACCESS_KEY` as deploy target or application 
 ```yaml
 deploy:
   steps:
-    - reneras/scalr-api:
+    - rras/scalr-api:
         endpoint: http://yourserver.com/api/api.php
         api-version: 2.3.0
         key-id: $SCALR_API_KEY_ID
