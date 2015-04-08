@@ -7,7 +7,7 @@ Link to API docs: https://scalr-wiki.atlassian.net/wiki/display/docs/API
 # Options
 
 * `endpoint` (required) Your Scalr API url
-* `version` (required) The version of Scalr API that will be used
+* `api-version` (required) The version of Scalr API that will be used
 * `key-id` (required) The API Key ID
 * `api-access-key` (required) The API Access Key
 * `action` (required) The API action to be performed
@@ -22,7 +22,7 @@ deploy:
   steps:
     - reneras/scalr-api:
         endpoint: http://yourserver.com/api/api.php
-        version: 2.3.0
+        api-version: 2.3.0
         key-id: $SCALR_API_KEY_ID
         api-access-key: $SCALR_API_ACCESS_KEY
         action: ScriptExecute
