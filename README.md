@@ -15,7 +15,7 @@ Link to API docs: https://scalr-wiki.atlassian.net/wiki/display/docs/API
 
 # Example
 
-Add SCALR_API_KEY_ID & SCALR_API_ACCESS_KEY as deploy target or application environment variable.
+Add `SCALR_API_KEY_ID` & `SCALR_API_ACCESS_KEY` as deploy target or application environment variable.
 
 ```yaml
 deploy:
