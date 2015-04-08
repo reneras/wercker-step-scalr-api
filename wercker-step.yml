@@ -1,5 +1,5 @@
-name: scalr-api
-version: 1.0.0
+name: scalr-API
+version: 1.0.1
 description: Send queries to your Scalr API.
 keywords:
   - scalr
